@@ -22,7 +22,7 @@ pip install opencv-python tensorflow numpy imutils
 ## Model
 
 The pre-trained MobileNetSSD model is used for object detection. You can download the MobileNetSSD model files from the following links:
-- **Model file**: `mobilenetss_deploy.caffemodel` (the pre-trained model)
+- **Model file**: `mobilenetssd_deploy.caffemodel` (the pre-trained model)
 - **Configuration file**: `mobilenetssd_deploy.protxt` (the model configuration)
 
 ## How to Run the Project
@@ -44,7 +44,7 @@ python object_recognition.py --camera
 The output will show the detected objects with bounding boxes around them and the class labels.
 
 ## Files Included:
-- `mobilenetss_deploy.caffemodel`: The pre-trained MobileNetSSD model.
+- `mobilenetssd_deploy.caffemodel`: The pre-trained MobileNetSSD model.
 - `mobilenetssd_deploy.protxt`: The model configuration file.
 - `object_recognition.py`: The main script to perform object detection.
 - `requirements.txt`: The list of dependencies for the project.
